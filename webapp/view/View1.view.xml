@@ -1,0 +1,16 @@
+<mvc:View controllerName="phil.Avatar.controller.View1" xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc"
+	xmlns:avatar="phil.Avatar.control"
+	displayBlock="true" xmlns="sap.m">
+	<App id="idAppControl">
+		<pages>
+			<Page title="{i18n>title}">
+				<content>
+					<avatar:avatar id="idEmpAvatar1" name="Phil Hargreaves}" defaultColor="#ff7a8a"
+						size="75px"></avatar:avatar>
+					<avatar:avatar id="idEmpAvatar2" name="Sammy Smith}" 
+						size="100px"></avatar:avatar>
+				</content>
+			</Page>
+		</pages>
+	</App>
+</mvc:View>
